@@ -1,12 +1,6 @@
 body {
   overflow-x: hidden;
 }
-img {
-  height: 600px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 0 0%;
-}
 
 /* BARRE DE NAVIGATION */
 
@@ -30,7 +24,7 @@ a {
   opacity: 0.9;
 }
 .topbar {
-  height: 80px;
+  height: 60px;
   background-color: #ffffff;
   position: fixed;
   z-index: 1;
@@ -205,8 +199,9 @@ li a {
 }
 
 .paragrapheimg {
- height: 100px;
- width: auto;
+height: auto;
+width: 200px;
+
   
 }
 
@@ -268,4 +263,52 @@ li a {
    width: 100%;
    padding-top: 250px;
  }
+
+ .navbar {
+   padding: 0;
+ }
+
+/* BLOCK ALIGN RIGHT */
+
+ .leftblock {
+   width: 50%;
+ }
+
+ .imgblockalign {
+   width: 50%;
+ }
+
+ .imgblock {
+   width: 90%;
+   height: 240px;
+   object-fit: cover;
+ }
+
+ .blockback {
+   background-color: #bd8439a2;
+   padding: 50px 10px 50px 50px;
+   width: 90%;
+ }
+
+ .montagneimgalp, .foretimgfin, .merimgcourt {
+  height: 60vh;
+  width: 50%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.littlewindowimg {
+  height: 250px;
+  width: 270px;
+  object-fit: cover;
+}
+
+.caption {
+  height: 200px;
+  width: 270px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
